@@ -12,13 +12,16 @@ def major_measurements(N, K, L):
 
         if x1 >= L and x2 >= L and x3 >= L:
             if (x1+x2+x3) >= K:
-                result.append(x1)
-                result.append(x2)
-                result.append(x3)
+                # result.append(x1)
+                # result.append(x2)
+                # result.append(x3)
+                result.extend([x1, x2, x3])
                 teamCnt += 1
 
     print(teamCnt)
-    print(*result)
+    
+    # print(*result)
+    print(' '.join(map(str, result))) # * 말고 이걸 사용하는걸 권장
 
     return result
 
