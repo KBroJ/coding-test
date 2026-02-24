@@ -24,15 +24,14 @@
 '''
 import sys
 
-# 방법1
 def insertion_sort(n, t):
 
-    # 2번째 입력값 배열 저장 : 3 1 4 1 5 9 2 6 5 3 5
+    # 2번째 입력값 - 배열 저장 : 3 1 4 1 5 9 2 6 5 3 5
     # arr = list(map(int, input().split()))
     arr = list(map(int, sys.stdin.readline().split()))
 
     '''
-    # 선택정렬 방식(앞->뒤)
+    # 방법1. 선택정렬 방식(앞->뒤)
     for i in range(0, t):
         for j in range(i+1, t):
             if arr[j] < arr[i]:
@@ -40,7 +39,7 @@ def insertion_sort(n, t):
     '''
 
     '''
-    # 삽입정렬 방식(뒤->앞)
+    # 방법2. 삽입정렬 방식(뒤->앞) - 백준 시간초과
     for i in range(1, t):
         for j in range(i, 0, -1):
 
@@ -52,7 +51,7 @@ def insertion_sort(n, t):
     return arr
     '''
 
-    # sorted() 사용
+    # 방법3. sorted() 사용
     return sorted(arr[:t])+arr[t:]
 
 # 1번째 입력값
