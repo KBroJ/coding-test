@@ -6,7 +6,7 @@ Python (Java 배경) / 백준 + 프로그래머스 / loopers-coding-test-challen
 
 ## 코테 핵심 정리 자료
 
-> **[📂 prep/ 바로가기](KBroJ/ebay_prep/README.md)**
+> **[📂 prep/ 바로가기](KBroJ/prep/README.md)**
 >
 > 알고리즘 · SQL · CS 서술형 집중 정리
 
@@ -40,7 +40,7 @@ Python (Java 배경) / 백준 + 프로그래머스 / loopers-coding-test-challen
 
 ```
 KBroJ/
-├── ebay_prep/         ← 코테 핵심 정리 자료
+├── prep/              ← 코테 핵심 정리 자료
 ├── 02/                ← 2월 풀이
 │   ├── 0219/
 │   ├── 0220/
