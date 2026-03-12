@@ -4,11 +4,11 @@ Python (Java 배경) / 백준 + 프로그래머스 / loopers-coding-test-challen
 
 ---
 
-## eBay Japan 코딩테스트 준비 ← 3/15 (일)
+## 코테 핵심 정리 자료
 
-> **[📂 ebay_prep/ 바로가기](KBroJ/ebay_prep/README.md)**
+> **[📂 prep/ 바로가기](KBroJ/ebay_prep/README.md)**
 >
-> 알고리즘 · SQL · 서술형 3일 집중 준비 자료
+> 알고리즘 · SQL · CS 서술형 집중 정리
 
 ---
 
@@ -40,7 +40,7 @@ Python (Java 배경) / 백준 + 프로그래머스 / loopers-coding-test-challen
 
 ```
 KBroJ/
-├── ebay_prep/         ← eBay 코테 준비 자료
+├── ebay_prep/         ← 코테 핵심 정리 자료
 ├── 02/                ← 2월 풀이
 │   ├── 0219/
 │   ├── 0220/
